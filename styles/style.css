@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+/* Navbar */
+.navbar{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#Menu_Off:hover{
+    cursor: pointer;
+}
+
+/* Landing */
+.landing{
+    width: 100%;
+    margin-top: 15vh;
+}
+
+/* Carousel */
+.carousel-home{
+    background-image: url("/images/Mask-Group-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 39vw;
+    margin: auto;
+}
