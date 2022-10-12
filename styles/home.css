@@ -52,6 +52,7 @@
 .intro p {
   font-size: 24px;
   width: 56%;
+  font-weight: lighter;
 }
 
 /* link box section */
@@ -68,7 +69,7 @@
 
 .box {
   height: 201px;
-  width: 33%;
+  width: 32%;
   background-color: #061c2c;
   margin-bottom: 25px;
   padding: 2%;
@@ -83,7 +84,7 @@
 }
 
 .minibox-item {
-  width: 16.25%;
+  width: 15%;
   height: 38px;
   background-color: #244ac2;
   display: flex;
@@ -99,4 +100,83 @@
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
+}
+
+/* Info Home on Page */
+
+.home-info {
+  background-color: #061c2c;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.info-first-row {
+  color: #ffffff;
+  width: 87%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.info-box-tri {
+  width: 32%;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: #dbe0e6;
+  margin-bottom: 20px;
+}
+.info-textbox {
+  width: 50%;
+}
+
+.info-header {
+  color: #29a4e6;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.large {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.info-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#info-icon {
+  margin-right: 20px;
+}
+
+.info-box-duo {
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+  margin: auto;
+}
+
+.duo-1 {
+  width: 32%;
+}
+
+.duo-2 {
+  width: 66%;
 }
