@@ -199,5 +199,17 @@
 
 .stats {
   display: flex;
-  width: 100%;
+  width: 16vw;
+}
+
+.stat-info {
+  margin-left: 25px;
+}
+
+.v-team {
+  width: 15vw;
+}
+
+.team {
+  width: 17vw;
 }
